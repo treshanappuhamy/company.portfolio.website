@@ -7,7 +7,6 @@ Welcome to the company portfolio website! This repository contains a website tha
 - [About This Portfolio](#about-this-portfolio)
 - [Skills](#skills)
 - [How to Use](#how-to-use)
-- [Contact](#contact)
 
 ## About This Portfolio Website
 
