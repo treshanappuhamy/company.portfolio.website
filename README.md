@@ -26,5 +26,5 @@ This portfolio showcases projects completed by Treshan Appuhamy while working as
 To view this company portfolio website, simply click on [https://kdrtile.blogspot.com](https://kdrtile.blogspot.com). You can also clone this repository to your local machine and open the HTML files in your preferred browser.
 
 ```bash
-git clone https://github.com/yourusername/company-portfolio.git
+git clone https://github.com/treshanappuhamy/company-portfolio.git
 cd company-portfolio
