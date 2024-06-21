@@ -19,7 +19,8 @@ body {
     align-items: center;
     min-height: 100vh; /* Ensures the container takes full viewport height */
     text-align: center;
-    margin-top: -40px;
+    margin-top: -120px;
+
 }
 
 .desktop-nav {
@@ -71,6 +72,7 @@ body {
 .hero-section {
     text-align: center;
     padding: 10px 20px;
+
 }
 
 .hero-section h1 {
@@ -121,6 +123,10 @@ footer {
 @media (max-width: 768px) {
     .desktop-nav {
         display: none;
+    }
+
+    .logo a{
+        font-size: 26px;
     }
 
     .mobile-nav {
@@ -179,6 +185,5 @@ footer {
         max-width: 80%; /* Ensures the image scales down appropriately */
         height: auto;
     }
-
 
 }

@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KDR Tile</title>
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/slideshow.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
@@ -26,7 +27,7 @@
 
   <div class="mobile-nav">
     <div class="logo">
-      <a href="#">KDR Tile</a>
+      <a href="#">Roof Tiles Sri Lanka</a>
     </div>
     <div class="menu-button">
       <i class="fas fa-bars"></i>
@@ -46,7 +47,13 @@
   </div>
 <div class="main-container">
 
-  <img class="main-tile" src="https://res.cloudinary.com/ds7nchsaf/image/upload/v1674900740/removal.ai__tmp-63d4f35391caf_1_smqtwn.png" alt="calicut tile by KDR Tile">
+  <div class="slideshow-container">
+    <div class="slideshow">
+      <img class="slide" src="https://res.cloudinary.com/ds7nchsaf/image/upload/v1674900740/removal.ai__tmp-63d4f35391caf_1_smqtwn.png" alt="calicut tile by KDR Tile">
+      <img class="slide" src="path_to_second_image" alt="Second Image">
+      <img class="slide" src="path_to_third_image" alt="Third Image">
+    </div>
+  </div>
 
   <header class="hero-section">
     <h1>Enhance the Value of Your House with Beautiful Clay Roof Tiles <a href="#" class="btn">Contact Us</a></h1>
@@ -63,20 +70,7 @@
 </div>
 
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const menuButton = document.querySelector(".menu-button");
-    const closeButton = document.querySelector(".close-button");
-    const mobileMenu = document.querySelector(".mobile-menu");
-
-    menuButton.addEventListener("click", function() {
-      mobileMenu.classList.add("active");
-    });
-
-    closeButton.addEventListener("click", function() {
-      mobileMenu.classList.remove("active");
-    });
-  });
-</script>
+<script src="scripts/hamburger.js"></script>
+<script src="scripts/slideshow.js"></script>
 </body>
 </html>

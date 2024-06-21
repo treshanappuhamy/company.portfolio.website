@@ -1,0 +1,19 @@
+.slideshow {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.slide {
+    width: auto;
+    height: auto;
+    display: none;
+    max-width: 80%;
+
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
